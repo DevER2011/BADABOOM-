@@ -1,0 +1,26 @@
+body
+{
+	text-align: center;
+	animation-name: example;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+background-image:url("bla.jpg");
+}
+span
+{
+	font-size: 30px;
+	color: rgb(255, 0, 0);
+}
+canvas
+{
+	background: pink;
+	border-radius: 20px;
+	animation-name: example;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+}
+@keyframes example{
+	from{box-shadow: 1px 1px 38px gold; }
+	to {box-shadow: 1px 1px 38px rgb(157, 20, 220);}
+	}
+	
